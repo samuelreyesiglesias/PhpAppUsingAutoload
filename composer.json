@@ -1,0 +1,21 @@
+{
+    "name": "samuel/text",
+    "description": "App to format text",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Samuel"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Text\\":"src/",
+            "Num\\":"src/"
+        },
+        "files":[
+            "src/helpers.php"
+        ]
+    }
+}
